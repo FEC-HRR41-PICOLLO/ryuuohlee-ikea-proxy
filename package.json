@@ -1,17 +1,18 @@
 {
-  "name": "",
-  "version": "",
+  "name": "ryuuohlee-ikea-proxy",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
+  "author": "Jeffrey Lee",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon server/index.js"
   },
   "dependencies": {
-  },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
   }
 }
